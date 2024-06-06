@@ -47,7 +47,7 @@ async def rraid(e):
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("✦ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ʜɪʀᴇᴘʟʏʀᴀɪᴅ ✅")
+                await e.reply("✦ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ᴘʙɪʀᴇᴘʟʏʀᴀɪᴅ ✅")
         except NameError:
             await e.reply(f"❖ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 ⏤͟͟͞͞★\n\n● 𝐏𝐁𝐈𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝 ➥ {hl}prraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n● {hl}prraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
@@ -68,6 +68,6 @@ async def drraid(e):
             global REPLY_RAID
             if check in REPLY_RAID:
                 REPLY_RAID.remove(check)
-            await e.reply("✦ ʀᴇᴘʟʏ ʜɪʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅")
+            await e.reply("✦ ʀᴇᴘʟʏ ᴘʙɪʀᴀɪᴅ ᴅᴇ-ᴀᴄᴛɪᴠᴀᴛᴇᴅ ✅")
         except NameError:
             await e.reply(f"❖ 𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 ⏤͟͟͞͞★\n\n● 𝐏𝐁𝐈𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝 ➥ {hl}dprraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n● {hl}dprraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
