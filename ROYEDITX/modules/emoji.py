@@ -8,7 +8,7 @@ from pyrogram import enums
 from config import X1, SUDO_USERS, OWNER_ID, CMD_HNDLR as hl
 from ROYEDITX.data import EMOJI
 
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
+@X1.on(events.NewMessage(incoming=True, pattern=r"\%semoji(?: |$)(.*)" % hl))
 async def emoji(e):
      if e.sender_id in SUDO_USERS:
         xraid = e.text.split(" ", 2)
