@@ -24,7 +24,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", default=None)
 SUDO_USERS = list(map(lambda x: int(x), getenv("SUDO_USERS", default="6922271843").split()))
 for x in AVISHA:
     SUDO_USERS.append(x)
-OWNER_ID = int(getenv("OWNER_ID", default="6922271843"))
+OWNER_ID = int(getenv("OWNER_ID", default="6898413162"))
 SUDO_USERS.append(OWNER_ID)
 
 
