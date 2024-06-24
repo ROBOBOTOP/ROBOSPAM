@@ -1,0 +1,21 @@
+services:
+  - type: web
+    plan: free
+    name: spambot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python3 main.py
+    repo: https://github.com/ROBOBOTOP/ROBOSPAM
+    branch: main
+    autoDeploy: false
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: CMD_HNDLR
+        sync: false
+      - key: OWNER_ID
+        sync: false
